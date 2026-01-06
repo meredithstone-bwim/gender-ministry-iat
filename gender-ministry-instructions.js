@@ -1,0 +1,58 @@
+<%
+    var respInst = "you will use the 'E' and 'I' computer keys to";
+    if (global.$isTouch)  respInst = "you will";
+%>
+
+<div class="panel panel-info" style="margin-top:1em">
+		<div class="panel-heading">
+			<h1 class="panel-title" style="font-size:2em">
+				IAT Instructions
+			</h1>
+		</div>
+</div>
+
+<div class="panel-body">
+	<p class="lead">Next, <%=respInst%> categorize items into groups as fast as you can. 
+	These are the four groups and the items that belong to each:</p>
+
+	<table class="table table-bordered">
+		<tr class="active">
+			<th>Category</th>
+			<th>Items</th>
+		</tr>
+		<tr>
+			<th>Male</th>
+			<td><John>, <David>, <James>, 
+			<Matthew>, <Christopher>, <Andrew>, 
+			<Richard>, <Michael></td>
+		</tr>
+		<tr>
+			<th>Female</th>
+			<td><Caroline>, <Janet>, <Karen>, 
+			<Sarah>, <Rachel>, <Anna>, 
+			<Elizabeth>, <Amanda></td>
+		</tr>
+		<tr>
+			<th>Ministry</th>
+			<td><Pastor>, <Pulpit>, <Congregation>, 
+			<Ministry>, <Preaching>, <Priest>, 
+			<Church></td>
+		</tr>
+		<tr>
+			<th>Family</th>
+			<td><Parent>, <Family>, <Home>, 
+			<Children>, <Household>, <Marriage>, 
+      <Spouse></td>
+		</tr>
+
+		</tr>
+	</table>
+
+	<p class="lead">There are seven parts.  The instructions change for each part.  Pay attention!<p>
+
+	<div class="text-center proceed" style="margin: 30px auto 10px;">
+		<button pi-message-done type="button" class="btn btn-primary">
+			Start
+		</button>
+	</div>
+</div>
