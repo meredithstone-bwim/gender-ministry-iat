@@ -43,9 +43,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 		},
 		category1 : 
 		{
-			name : 'Science', 
+			name : 'Ministry', 
 			title : {
-				media : {word : 'Science'}, 
+				media : {word : 'Ministry'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
@@ -63,9 +63,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
 		},
 		category2 : 
 		{
-			name : 'Liberal Arts', 
+			name : 'Family', 
 			title : {
-				media : {word : 'Liberal Arts'}, 
+				media : {word : 'Family'}, 
 				css : {color:'#31940F','font-size':'1.8em'}, 
 				height : 4 //Used to position the "Or" in the combined block.
 			}, 
