@@ -14,50 +14,6 @@ define(['managerAPI',
     API.setName('mgr');
     API.addSettings('skip',true);
 
-    //Randomly select which of two sets of category labels to use.
-    let raceSet = API.shuffle(['a','b'])[0];
-    let blackLabels = [];
-    let whiteLabels = [];
-
-    if (raceSet == 'a') {
-        blackLabels.push('African Americans');
-        whiteLabels.push('European Americans');
-    } else {
-        blackLabels.push('Black people');
-        whiteLabels.push('White people');
-    }
-
-    API.addGlobal({
-        raceiat:{},
-        //YBYB: change when copying back to the correct folder
-        baseURL: './images/',
-        raceSet:raceSet,
-        blackLabels:blackLabels,
-        whiteLabels:whiteLabels,
-        //Select randomly what attribute words to see. 
-        //Based on Axt, Feng, & Bar-Anan (2021).
-        posWords : API.shuffle([
-            'Love', 'Cheer', 'Friend', 'Pleasure',
-            'Adore', 'Cheerful', 'Friendship', 'Joyful', 
-            'Smiling','Cherish', 'Excellent', 'Glad', 
-            'Joyous', 'Spectacular', 'Appealing', 'Delight', 
-            'Excitement', 'Laughing', 'Attractive','Delightful', 
-            'Fabulous', 'Glorious', 'Pleasing', 'Beautiful', 
-            'Fantastic', 'Happy', 'Lovely', 'Terrific', 
-            'Celebrate', 'Enjoy', 'Magnificent', 'Triumph'
-        ]), 
-        negWords : API.shuffle([
-            'Abuse', 'Grief', 'Poison', 'Sadness', 
-            'Pain', 'Despise', 'Failure', 'Nasty', 
-            'Angry', 'Detest', 'Horrible', 'Negative', 
-            'Ugly', 'Dirty', 'Gross', 'Evil', 
-            'Rotten','Annoy', 'Disaster', 'Horrific',  
-            'Scorn', 'Awful', 'Disgust', 'Hate', 
-            'Humiliate', 'Selfish', 'Tragic', 'Bothersome', 
-            'Hatred', 'Hurtful', 'Sickening', 'Yucky'
-        ])
-    });
-
     API.addTasksSet({
         instructions: [{
             type: 'message',
@@ -84,7 +40,7 @@ define(['managerAPI',
         genderministry: [{
             type: 'time',
             name: 'genderministry',
-            scriptUrl: 'genderministry.js'
+            scriptUrl: 'meredithstone-bwim.gitmo.io/gender-ministry-iat/genderministry.js'
         }],
 
         lastpage: [{
@@ -159,8 +115,8 @@ define(['managerAPI',
                 {
                     mixer: 'wrapper',
                     data: [
-                        {inherit: 'raceiat_instructions'},
-                        {inherit: 'raceiat'}
+                        {inherit: 'gender_ministry_instructions'},
+                        {inherit: 'genderministry'}
                     ]
                 }
             ]
