@@ -45,17 +45,11 @@ define(['questAPI'], function(Quest){
     API.addQuestionsSet('therm',{
         inherit: 'basicSelect',
         answers: [
-            {text:'10 - Extremely warm', value:10},
-            {text:'9 - Very warm', value:9},
-            {text:'8 - Moderately warm', value:8},
-            {text:'7 - Somewhat warm', value:7},
-            {text:'6 - Slightly warm', value:6},
-            {text:'5 - Neither warm nor cold', value:5},
-            {text:'4 - Slightly cold', value:4},
-            {text:'3 - Somewhat cold', value:3},
-            {text:'2 - Moderately cold', value:2},
-            {text:'1 - Very cold', value:1},
-            {text:'0 - Extremely cold', value:0}
+            {text:'4 - Strongly affirming', value:4},
+            {text:'3 - Affirming', value:3},
+            {text:'2 - Neutral', value:2},
+            {text:'1 - Not affirming', value:1},
+            {text:'0 - Strongly not affirming', value:0}
         ]
     });
 
@@ -81,13 +75,13 @@ define(['questAPI'], function(Quest){
     API.addQuestionsSet('thermBlack',{
         inherit : 'therm',
         name: 'Tblack_0to10',
-        stem: 'How warm or cold do you feel towards <b><%= global.blackLabels %></b>?'
+        stem: 'How would you categorize the position of your church toward women in ministry?'
     });
 
     API.addQuestionsSet('thermWhite',{
         inherit : 'therm',
         name: 'Twhite_0to10',
-        stem: 'How warm or cold do you feel towards <b><%= global.whiteLabels %></b>?'
+        stem: 'How would you categorize the position of your church toward women in ministry?'
     });
 
     API.addSequence([
