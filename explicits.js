@@ -45,11 +45,11 @@ define(['questAPI'], function(Quest){
     API.addQuestionsSet('therm',{
         inherit: 'basicSelect',
         answers: [
-            {text:'4 - Strongly affirming', value:4},
-            {text:'3 - Affirming', value:3},
-            {text:'2 - Neutral', value:2},
-            {text:'1 - Not affirming', value:1},
-            {text:'0 - Strongly not affirming', value:0}
+            {text:'5 - Strongly affirming', value:5},
+            {text:'4 - Affirming', value:4},
+            {text:'3 - Neutral', value:3},
+            {text:'2 - Not affirming', value:2},
+            {text:'1 - Strongly not affirming', value:1}
         ]
     });
 
@@ -78,13 +78,7 @@ define(['questAPI'], function(Quest){
         stem: 'How would you categorize the position of your church toward women in ministry?'
     });
 
-    API.addQuestionsSet('thermWhite',{
-        inherit : 'therm',
-        name: 'Twhite_0to10',
-        stem: 'How would you categorize the position of your church toward women in ministry?'
-    });
-
-    API.addSequence([
+       API.addSequence([
         {
             mixer : 'random', 
             data : [
@@ -96,11 +90,7 @@ define(['questAPI'], function(Quest){
                             inherit:'basicPage', 
                             questions: {inherit:'thermBlack'}
                         },
-                        {
-                            inherit:'basicPage', 
-                            questions: {inherit:'thermWhite'}							
-                        }
-                    ]
+                       ]
                 },
                 {
                     inherit:'basicPage', 
