@@ -15,7 +15,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 {word: 'David'},
                 {word: 'James'},
                 {word: 'Matthew'},
-                {word: 'Christopher'},                 
+                {word: 'William'},                 
                 {word: 'Andrew'},
                 {word: 'Richard'},
                 {word: 'Michael'}
@@ -35,7 +35,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 {word: 'Nancy'},
                 {word: 'Karen'},
                 {word: 'Sarah'},
-                {word: 'Rachel'},
+                {word: 'Lisa'},
                 {word: 'Emily'},
                 {word: 'Cheryl'},
                 {word: 'Amanda'}
