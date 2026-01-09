@@ -31,13 +31,13 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 height : 4 //Used to position the "Or" in the combined block.
             }, 
             stimulusMedia : [ //Stimuli content as PIP's media objects
-                {word: 'Caroline'},
-                {word: 'Janet'},
+                {word: 'Carolyn'},
+                {word: 'Nancy'},
                 {word: 'Karen'},
                 {word: 'Sarah'},
                 {word: 'Rachel'},
-                {word: 'Anna'},
-                {word: 'Elizabeth'},
+                {word: 'Emily'},
+                {word: 'Cheryl'},
                 {word: 'Amanda'}
             ],
             //Stimulus css (style)
