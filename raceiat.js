@@ -13,12 +13,12 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
             stimulusMedia : [ //Stimuli content as PIP's media objects
                 {word: 'John'},
                 {word: 'David'},
-                {word: 'James'},
+                {word: 'Steven'},
                 {word: 'Matthew'},
                 {word: 'William'},                 
-                {word: 'Andrew'},
+                {word: 'Charles'},
                 {word: 'Richard'},
-                {word: 'Michael'}
+                {word: 'Robert'}
             ],
             //Stimulus css (style)
             stimulusCss : {color:'#31940F','font-size':'2.3em'}
@@ -55,9 +55,10 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 {word: 'Church'},
                 {word: 'Pulpit'},
                 {word: 'Congregation'},
-                {word: 'Ministry'},
+                {word: 'Minister'},
                 {word: 'Preaching'},
-                {word: 'Faith Leader'}
+                {word: 'Clergy'}
+                {word: 'Reverend'}
             ],
             //Stimulus css
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
@@ -75,8 +76,9 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 {word: 'Home'},
                 {word: 'Children'},
                 {word: 'Household'},
-                {word: 'Marriage'},
+                {word: 'Domestic'},
                 {word: 'Spouse'}
+                {word: 'Caregiving'}
             ],
             //Stimulus css
             stimulusCss : {color:'#0000FF','font-size':'2.3em'}
