@@ -57,7 +57,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 {word: 'Congregation'},
                 {word: 'Minister'},
                 {word: 'Preaching'},
-                {word: 'Clergy'}
+                {word: 'Clergy'},
                 {word: 'Reverend'}
             ],
             //Stimulus css
@@ -77,7 +77,7 @@ define(['pipAPI','https://cdn.jsdelivr.net/gh/baranan/minno-tasks@0.*/IAT/iat10.
                 {word: 'Children'},
                 {word: 'Household'},
                 {word: 'Domestic'},
-                {word: 'Spouse'}
+                {word: 'Spouse'},
                 {word: 'Caregiving'}
             ],
             //Stimulus css
